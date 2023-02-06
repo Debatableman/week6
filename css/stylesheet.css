@@ -11,3 +11,21 @@ ul.list > li{
     /* list-style-type:  */
     border-bottom: 1px solid grey
 }
+
+body > a{
+    font-size: 120%;
+    font-style:bold;
+    background-color: yellow;
+}
+
+li a:link{
+    color: green
+}
+
+li a:visited{
+    color:red
+}
+
+li a:hover{
+    color:pink
+}
