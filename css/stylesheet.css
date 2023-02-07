@@ -12,12 +12,6 @@ ul.list > li{
     border-bottom: 1px solid grey
 }
 
-body > a{
-    font-size: 120%;
-    font-style:bold;
-    background-color: yellow;
-}
-
 li a:link{
     color: green
 }
@@ -28,4 +22,37 @@ li a:visited{
 
 li a:hover{
     color:pink
+}
+
+li:first-child::first-letter{
+    font-size: 120%;
+    font-weight: bold;
+}
+
+a[href*="https://bcit"]
+{
+    background-color: yellow;
+}
+
+body + p{
+    float:left
+}
+
+.below{
+    clear: left;
+}
+
+.target{
+width:50px;
+height:50px;
+background-color: forestgreen;
+position: absolute;
+top:0px;
+right:0px;
+}
+
+.container
+{
+border: 2px gray solid;
+position:relative;
 }
